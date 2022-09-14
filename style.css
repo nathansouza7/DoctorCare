@@ -23,6 +23,7 @@ header {
     font-weight: 600;
     font-family: 'DM Sans', sans-serif;
     color: #212529;
+    margin-right: 30px;
 }
 
 .logo span {
@@ -86,12 +87,12 @@ nav li:hover::after {
 
 /* Início do Primeiro Container */
 
-.first-container {
+.s1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #DCE9E2;
-    height: 580px;
+    height: 598px;
 }
 
 .content-1 {
@@ -99,6 +100,7 @@ nav li:hover::after {
     flex-direction: column;
     gap: 27px;
     position: relative;
+    bottom: 60px;
 }
 
 .content-1 span {
@@ -130,7 +132,7 @@ nav li:hover::after {
     gap: 15px;
     background-color: #00856F;
     border-radius: 50px;
-    max-width: 310px;
+    max-width: 263px;
     padding: 20px;
     width: 100%;
     font-family: 'DM Sans', sans-serif;
@@ -147,20 +149,22 @@ nav li:hover::after {
 .content-2 img {
    position: relative;
    right: 20%;
+   bottom: 28px;
 }
 
 /* Fim do Primeiro Container */
 
 /* Início do Segundo Container */
 
-.second-container {
+.s2 {
     position: absolute;
-    bottom: -25%;
+    bottom: -20%;
     left: 7%;
     border-radius: 7px;
     width: 1120px;
     height: 210px;
-    background-color: #fff;
+    background-color: #FFFAF1;
+    border: 1px solid #DCE9E2;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -172,49 +176,21 @@ nav li:hover::after {
     background-color: #00856F;
 }
 
-.itens-1, .itens-2, .itens-3{
+.itens {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.itens-1 h1 {
+.itens h1 {
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 48px;
     color: #212529;
 }
 
-.itens-2 h1 {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700;
-    font-size: 48px;
-    color: #212529;
-}
-
-.itens-3 h1 {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700;
-    font-size: 48px;
-    color: #212529;
-}
-
-.itens-1 p {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #00856F;
-}
-
-.itens-2 p {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #00856F;
-}
-
-.itens-3 p {
+.itens p {
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -225,7 +201,127 @@ nav li:hover::after {
 
 /* Início do Terceiro Container */
 
-.third-container {
+.s3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 1082px;
     background-color: #F7F9F9;
 }
+
+#s3-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+    width: 100%;
+}
+
+#text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#text span {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #00856F;
+    margin-bottom: 10px;
+}
+
+#text h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#all-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 45px 20px;
+    border: 1px solid #DCE9E2;
+    padding: 20px;
+    height: 207px;
+    width: 347px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.box h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    width: 100%;
+}
+
+.box p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Fim do Terceiro Container */
+
+/* Início do Quarto Container */
+
+.s4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFAF1;
+    height: 734px;
+}
+
+.s4-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 67px;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 573px;
+    height: 327px;
+}
+
+.container-text span {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #00856F;
+}
+
+.container-text h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #212529;
+}
+
+.container-text p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #495057;
+}
+
+/* Fim do Quarto Container */
+
+/* Início do Quinto Container */
