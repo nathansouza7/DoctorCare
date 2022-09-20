@@ -173,7 +173,7 @@ nav li:hover::after {
     justify-content: center;
 }
 
-.s2-text h1 {
+.s2-text :nth-child(1) {
     font-weight: 700;
     font-size: 48px;
     color: #212529;
@@ -228,7 +228,7 @@ nav li:hover::after {
     margin-bottom: 10px;
 }
 
-.s3-text h1 {
+.s3-text h2 {
     font-weight: 700;
     font-size: 40px;
 }
@@ -261,7 +261,7 @@ nav li:hover::after {
     cursor: pointer;
 }
 
-.box h1 {
+.box h3 {
     font-weight: 700;
     font-size: 24px;
     width: 100%;
@@ -309,7 +309,7 @@ nav li:hover::after {
     color: #00856F;
 }
 
-.s4-text h1 {
+.s4-text h2 {
     font-weight: 700;
     font-size: 40px;
     color: #212529;
@@ -338,7 +338,7 @@ nav li:hover::after {
     gap: 190px;
 }
 
-.s5-text h1 {
+.s5-text h3 {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 30px;
@@ -401,14 +401,14 @@ nav li:hover::after {
     width: 300px;
 }
 
-.s6-text a {
+.s6-text :nth-child(1){
     font-size: 50px;
     font-weight: 400;
     color: #fff;
     margin-right: 30px;
 }
 
-.s6-text span {
+.s6-text :nth-child(1) span {
     font-weight: 800;
 }
 
